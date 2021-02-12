@@ -49,3 +49,6 @@
     right: 0;
     bottom: 0;
 }
+.carousel-item__details:hover{
+    opacity: 0;
+}
