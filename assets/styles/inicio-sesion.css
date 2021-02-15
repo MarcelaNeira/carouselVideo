@@ -91,12 +91,13 @@ body {
   outline: none;
   font-family: 'Muli', sans-serif;
   height: 40px;
+  color: white;
 }
 ::placeholder{ 
   color:white;  
 }
 .button{
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255,255,255,0.3);
   border-radius: 40px;
   cursor: pointer;
   font-size: 16px;
@@ -124,4 +125,22 @@ body {
 }
 .footer a:hover{
   text-decoration: underline;
+}
+.login__container-inicio-sesion{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width:600px){
+  .login__container{
+    background-color: transparent;
+    border:none;
+    padding: 0;
+    width: 100%;
+  }
+  .footer{
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
